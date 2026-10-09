@@ -1,0 +1,50 @@
+PhCraft Ban Archive — Copyright and Use Terms
+
+Copyright © PhCraft Team. All rights reserved, except for the limited permissions expressly granted below.
+
+1. Purpose
+
+The contents of this repository are published for public review, moderation verification, server safety, appeal review, and inter-server ban/reference systems.
+
+2. Permitted use
+
+You may:
+
+- view the repository and its public case records;
+- link to this repository or to an individual case page;
+- cite a case ID, Minecraft UUID, case status, violation category, and the URL of the original case;
+- automatically read machine-readable case metadata such as case.json for moderation or ban-reference purposes;
+- store the minimum metadata reasonably necessary to maintain such a reference, provided that the original case URL is retained where practical.
+
+3. Prohibited use
+
+Unless PhCraft Team gives prior written permission, you may not:
+
+- republish, mirror, redistribute, or re-host this repository or substantial parts of it;
+- copy, repost, or redistribute screenshots, videos, logs, CoreProtect exports, or other evidence files;
+- publish modified or derivative versions of the repository documentation or evidence as if they were original records;
+- use repository contents for commercial resale, paid data aggregation, advertising, or unrelated profiling;
+- remove attribution, case identifiers, correction notices, or appeal/overturn information when citing a case;
+- use the repository to falsely imply that PhCraft Team endorses another server, service, product, or punishment decision.
+
+4. Forks and GitHub platform features
+
+This repository is public on GitHub. GitHub platform features may permit viewing, cloning, or forking as provided by GitHub's Terms of Service. Such platform access does not grant any broader copyright license beyond the permissions stated in this document.
+
+5. Machine-readable metadata
+
+The permission to read and reference case.json or equivalent structured metadata does not grant permission to redistribute associated evidence files.
+
+If a case is later corrected or marked overturned, systems using this repository should update their records within a reasonable period after discovering the change.
+
+6. Third-party material
+
+Minecraft usernames, game content, trademarks, screenshots, logs, and other third-party material may contain rights belonging to their respective owners. PhCraft Team grants no rights in third-party material beyond any rights it is legally able to grant.
+
+7. No warranty
+
+The repository is provided for reference purposes without warranty. Case records reflect the evidence and administrative findings available to PhCraft Team at the time of publication and may later be corrected or overturned.
+
+8. Permission requests
+
+For permission to reproduce or redistribute material beyond the scope above, contact PhCraft Team through the repository's public contact or issue channels.

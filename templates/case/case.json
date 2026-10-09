@@ -1,0 +1,38 @@
+{
+  "case_id": "PCB-YYYY-NNN",
+  "status": "confirmed",
+  "server": "PhCraft",
+  "player": {
+    "name": "PLAYER_NAME",
+    "uuid": "00000000-0000-4000-8000-000000000000"
+  },
+  "incident": {
+    "start": "2026-01-01T00:00:00+08:00",
+    "end": "2026-01-01T00:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "world": "world",
+    "location_public": null
+  },
+  "violations": [
+    "griefing"
+  ],
+  "punishment": null,
+  "statistics": {
+    "blocks_broken": null,
+    "blocks_placed": null,
+    "container_actions": null
+  },
+  "evidence": [
+    {
+      "path": "evidence/coreprotect/actions.txt",
+      "type": "coreprotect",
+      "description": "相关 CoreProtect 记录"
+    }
+  ],
+  "assessment": "confirmed",
+  "appeal": {
+    "status": "none",
+    "issue_url": null,
+    "resolved_at": null
+  }
+}

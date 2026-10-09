@@ -1,0 +1,55 @@
+name: 案件申诉 / 更正
+description: 对已公开案件提出申诉，或报告案件中的事实错误
+title: "[申诉/更正] PCB-YYYY-NNN - "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只提交与案件复核有关的信息。不要在公开 Issue 中填写 IP、联系方式、账号凭据或其他敏感信息。
+
+  - type: input
+    id: case_id
+    attributes:
+      label: 案件编号
+      description: 例如 PCB-2026-001
+      placeholder: PCB-YYYY-NNN
+    validations:
+      required: true
+
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: 类型
+      options:
+        - 当事玩家申诉
+        - 事实更正
+        - 身份信息错误
+        - 证据解释存在问题
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: disputed_content
+    attributes:
+      label: 争议内容
+      description: 请指出具体哪一项事实、证据解释或结论有问题。
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可核验依据
+      description: 请提供能够支持主张的公开材料、时间点、日志片段说明或其他可核验信息。敏感材料请不要直接公开上传。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: 确认
+      options:
+        - label: 我确认以上内容与该案件直接相关，且没有故意公开他人的敏感信息。
+          required: true
