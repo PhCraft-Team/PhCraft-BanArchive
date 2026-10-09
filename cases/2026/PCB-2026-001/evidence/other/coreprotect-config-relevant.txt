@@ -1,0 +1,20 @@
+案件 PCB-2026-001 / CoreProtect 相关配置摘录
+
+来源：plugins/CoreProtect/config.yml；只读取所列键值，未复制完整配置。
+CoreProtect 数据库版本：2.24.0
+
+rollback-items: true
+rollback-entities: true
+explosions: true
+pistons: false
+block-burn: true
+block-ignite: true
+entity-kills: false
+item-transactions: true
+block-movement: false
+skip-generic-data: true
+
+调查解释：
+- explosions=true，TNT/爆炸相关记录有被 CoreProtect 记录的可能；但单行 co_block 不直接写明来源，需要和时间、坐标及服务器实体死亡日志关联。
+- pistons=false 且 block-movement=false，CoreProtect 不会可靠记录活塞推动的方块移动，因此本案没有把活塞次生破坏写成已确认事实。
+- entity-kills=false，实体死亡主要由服务器日志确认，不应假设 CoreProtect 回溯一定能恢复实体。
