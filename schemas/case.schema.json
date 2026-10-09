@@ -86,7 +86,7 @@
           "type": "string",
           "enum": ["warning", "temporary_ban", "permanent_ban", "other"]
         },
-        "issued_at": { "type": "string", "format": "date-time" },
+        "issued_at": { "type": ["string", "null"], "format": "date-time", "description": "未提供或无法核验执行时间时填 null，不得推算。" },
         "expires_at": { "type": ["string", "null"], "format": "date-time" },
         "note": { "type": ["string", "null"] }
       }

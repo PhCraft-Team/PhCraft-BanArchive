@@ -16,7 +16,12 @@
   "violations": [
     "griefing"
   ],
-  "punishment": null,
+  "punishment": {
+    "type": "permanent_ban",
+    "issued_at": null,
+    "expires_at": null,
+    "note": "服务器管理员确认本案处罚为永久封禁；未提供执行时间及封禁日志。"
+  },
   "statistics": {
     "blocks_broken": 279,
     "blocks_placed": 255,
