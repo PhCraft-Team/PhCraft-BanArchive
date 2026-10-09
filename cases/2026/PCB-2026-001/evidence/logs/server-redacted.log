@@ -1,0 +1,42 @@
+PhCraft / Google_6 / 2026-10-09
+案件窗口：2026-10-09 20:08:26+08:00 至 2026-10-09 22:00:34+08:00
+时区：Asia/Shanghai
+来源：logs/2026-10-09-1.log.gz
+说明：这是取证端改写过的脱敏摘要，非原样日志引用；本次进一步隐藏位置。原始行号由取证端提供，未在本次复核中与服务器原件核对。IP、其他玩家身份、实体 UUID/内部实体编号及无关聊天已删除或概括；本地原始压缩日志未修改。
+
+[原始行 2133] [20:08:26] UUID of player Google_6 is bd55e715-c221-404b-a415-6b31382efbdd
+[原始行 2135] [20:08:26] Google_6 joined the game
+[原始行 2136] [20:08:26] Google_6 logged in; IP and port redacted; world position approximately [坐标已隐藏]
+[原始行 2161] [20:14:50] Google_6 lost connection: Disconnected
+[原始行 2162] [20:14:50] Google_6 left the game
+[原始行 2163] [20:15:02] UUID of player Google_6 is bd55e715-c221-404b-a415-6b31382efbdd
+[原始行 2165] [20:15:03] Google_6 joined the game
+[原始行 2166] [20:15:03] Google_6 logged in; IP and port redacted; world position approximately [坐标已隐藏]
+
+[原始行 2383] [20:38:29] Cleric was slain by Google_6 at approximately [坐标已隐藏]
+[原始行 2384] [20:38:30] Named zombie was slain by Google_6 at approximately [坐标已隐藏]
+[原始行 2674] [21:04:01] Villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 2676] [21:04:06] Villager was slain by Google_6 near [坐标已隐藏]
+[原始行 2677] [21:04:08] Villager was slain by Google_6 near [坐标已隐藏]
+[原始行 3001] [21:27:48] Google_6 lost connection: Disconnected
+[原始行 3002] [21:27:48] Google_6 left the game
+[原始行 3005] [21:28:01] UUID of player Google_6 is bd55e715-c221-404b-a415-6b31382efbdd
+[原始行 3007] [21:28:02] Google_6 joined the game
+[原始行 3008] [21:28:02] Google_6 logged in; IP and port redacted; world position approximately [坐标已隐藏]
+[原始行 3088] [21:36:26] Fisherman villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3089] [21:36:26] Librarian villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3090] [21:36:26] Mason villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3091] [21:36:26] Weaponsmith villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3092] [21:36:26] Fisherman villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3093] [21:36:26] Toolsmith villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3094] [21:36:26] Librarian villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3095] [21:36:26] Toolsmith villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3096] [21:36:26] Armorer villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3097] [21:36:26] Librarian villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3098] [21:36:26] Weaponsmith villager was blown up by Google_6 near [坐标已隐藏]
+[原始行 3105] [21:37:28] Named skeleton horse was blown up by Google_6 near [坐标已隐藏]
+[原始行 3241] [21:59:28] Google_6 was blown up by Google_6
+[原始行 3243] [21:59:30] Google_6 was blown up by Google_6
+[原始行 3257] [22:00:34] Google_6 lost connection: Disconnected
+[原始行 3258] [22:00:34] Google_6 left the game
+[原始行 3545] [22:18:16] 其他玩家身份已脱敏；其聊天内容报告了一条 CoreProtect 查询：Google_6 在 [坐标已隐藏] 破坏了 cherry_sign，查询显示约发生在 2.02 小时前。此行为报告发生在案件窗口结束后，仅作为旁证。

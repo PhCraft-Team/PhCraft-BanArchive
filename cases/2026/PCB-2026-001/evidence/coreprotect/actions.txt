@@ -1,0 +1,1161 @@
+案件 PCB-2026-001 / CoreProtect 完整相关查询结果（脱敏文本）
+玩家: Google_6
+UUID: bd55e715-c221-404b-a415-6b31382efbdd
+CoreProtect user id: 52
+CoreProtect version: 2.24.0
+查询窗口: 2026-10-09 20:08:26+08:00 至 2026-10-09 22:00:34+08:00
+数据库: plugins/CoreProtect/database.db（SQLite mode=ro，只读）
+说明: 本文件包含该玩家在案件窗口内相关 CoreProtect 表的全部行；原始 BLOB/NBT 不复制，只记录字节长度。未包含 IP、其他玩家用户表或完整数据库。
+公开处理：精确坐标替换为位置编号；同一世界同一坐标使用相同编号。编号不表示距离或相邻关系。招牌和聊天内容的哈希已移除，以免短文本被猜测还原。完整坐标、文本和原始数据库由服务器管理员保留。
+动作映射: co_block action 0=方块移除，1=方块放置，2=方块交互；co_container action 0=容器移出，1=容器加入；其他表保留 CoreProtect 原始 action 数值。
+
+=== co_block ===
+2026-10-09 20:10:25+0800 | world | block_remove (action=0) | location=P0001 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:10:33+0800 | world | block_remove (action=0) | location=P0002 | minecraft:coal_ore | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:10:40+0800 | world | block_remove (action=0) | location=P0003 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=2
+2026-10-09 20:10:48+0800 | world | block_remove (action=0) | location=P0004 | minecraft:calcite | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:10:53+0800 | world | block_place (action=1) | location=P0004 | minecraft:calcite | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:10:56+0800 | world | block_remove (action=0) | location=P0005 | minecraft:snow | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:11:07+0800 | world | block_interact (action=2) | location=P0006 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:11:08+0800 | world | block_interact (action=2) | location=P0007 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:11:08+0800 | world | block_interact (action=2) | location=P0007 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:11:19+0800 | world | block_remove (action=0) | location=P0007 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=3019 | blockdata_bytes=0
+2026-10-09 20:12:15+0800 | world | block_remove (action=0) | location=P0008 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:39+0800 | world | block_remove (action=0) | location=P0009 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:43+0800 | world | block_remove (action=0) | location=P0010 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:16:43+0800 | world | block_remove (action=0) | location=P0011 | minecraft:cherry_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 20:16:48+0800 | world | block_remove (action=0) | location=P0012 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:49+0800 | world | block_remove (action=0) | location=P0013 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:16:50+0800 | world | block_remove (action=0) | location=P0014 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:54+0800 | world | block_place (action=1) | location=P0010 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:16:57+0800 | world | block_place (action=1) | location=P0014 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:57+0800 | world | block_place (action=1) | location=P0009 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:16:58+0800 | world | block_place (action=1) | location=P0012 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:07+0800 | world | block_remove (action=0) | location=P0015 | minecraft:smooth_quartz | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:08+0800 | world | block_remove (action=0) | location=P0016 | minecraft:smooth_quartz | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:09+0800 | world | block_remove (action=0) | location=P0017 | minecraft:smooth_quartz | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:09+0800 | world | block_remove (action=0) | location=P0018 | minecraft:pale_oak_wall_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:17:11+0800 | world | block_remove (action=0) | location=P0019 | minecraft:smooth_quartz | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:12+0800 | world | block_remove (action=0) | location=P0020 | minecraft:smooth_quartz | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:36+0800 | world | block_remove (action=0) | location=P0021 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:37+0800 | world | block_remove (action=0) | location=P0022 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 20:17:38+0800 | world | block_remove (action=0) | location=P0023 | minecraft:polished_deepslate | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:39+0800 | world | block_remove (action=0) | location=P0024 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:41+0800 | world | block_remove (action=0) | location=P0025 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:45+0800 | world | block_place (action=1) | location=P0021 | minecraft:polished_diorite_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:46+0800 | world | block_remove (action=0) | location=P0026 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:47+0800 | world | block_remove (action=0) | location=P0027 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:48+0800 | world | block_remove (action=0) | location=P0028 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:49+0800 | world | block_remove (action=0) | location=P0029 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:50+0800 | world | block_remove (action=0) | location=P0030 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:50+0800 | world | block_remove (action=0) | location=P0031 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:51+0800 | world | block_remove (action=0) | location=P0032 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:52+0800 | world | block_remove (action=0) | location=P0033 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:53+0800 | world | block_remove (action=0) | location=P0034 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:54+0800 | world | block_remove (action=0) | location=P0035 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:55+0800 | world | block_remove (action=0) | location=P0036 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:56+0800 | world | block_remove (action=0) | location=P0037 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:57+0800 | world | block_remove (action=0) | location=P0038 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:58+0800 | world | block_remove (action=0) | location=P0039 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:17:59+0800 | world | block_remove (action=0) | location=P0040 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:00+0800 | world | block_remove (action=0) | location=P0041 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:01+0800 | world | block_remove (action=0) | location=P0042 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:02+0800 | world | block_remove (action=0) | location=P0043 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:03+0800 | world | block_remove (action=0) | location=P0044 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:04+0800 | world | block_remove (action=0) | location=P0045 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:05+0800 | world | block_remove (action=0) | location=P0046 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:18:06+0800 | world | block_remove (action=0) | location=P0047 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:02+0800 | world | block_remove (action=0) | location=P0048 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:07+0800 | world | block_remove (action=0) | location=P0049 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:09+0800 | world | block_remove (action=0) | location=P0050 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:11+0800 | world | block_remove (action=0) | location=P0051 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:14+0800 | world | block_remove (action=0) | location=P0052 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:22+0800 | world | block_place (action=1) | location=P0053 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=3019 | blockdata_bytes=0
+2026-10-09 20:22:23+0800 | world | block_interact (action=2) | location=P0053 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:33+0800 | world | block_remove (action=0) | location=P0053 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=2881 | blockdata_bytes=0
+2026-10-09 20:22:37+0800 | world | block_remove (action=0) | location=P0054 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:39+0800 | world | block_remove (action=0) | location=P0055 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:41+0800 | world | block_remove (action=0) | location=P0056 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:44+0800 | world | block_remove (action=0) | location=P0057 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:46+0800 | world | block_remove (action=0) | location=P0058 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:48+0800 | world | block_remove (action=0) | location=P0059 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:51+0800 | world | block_remove (action=0) | location=P0060 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:53+0800 | world | block_remove (action=0) | location=P0061 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:55+0800 | world | block_remove (action=0) | location=P0062 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:22:57+0800 | world | block_remove (action=0) | location=P0063 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:00+0800 | world | block_remove (action=0) | location=P0064 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:02+0800 | world | block_remove (action=0) | location=P0065 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:04+0800 | world | block_remove (action=0) | location=P0066 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:07+0800 | world | block_remove (action=0) | location=P0067 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:13+0800 | world | block_remove (action=0) | location=P0068 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:15+0800 | world | block_remove (action=0) | location=P0069 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:17+0800 | world | block_remove (action=0) | location=P0070 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:20+0800 | world | block_remove (action=0) | location=P0071 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:22+0800 | world | block_remove (action=0) | location=P0072 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:24+0800 | world | block_remove (action=0) | location=P0073 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:27+0800 | world | block_remove (action=0) | location=P0074 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:29+0800 | world | block_remove (action=0) | location=P0075 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:39+0800 | world | block_remove (action=0) | location=P0076 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:41+0800 | world | block_remove (action=0) | location=P0077 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:51+0800 | world | block_remove (action=0) | location=P0078 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:54+0800 | world | block_remove (action=0) | location=P0079 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:56+0800 | world | block_remove (action=0) | location=P0080 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:23:58+0800 | world | block_remove (action=0) | location=P0081 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:24:00+0800 | world | block_remove (action=0) | location=P0082 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:24:02+0800 | world | block_remove (action=0) | location=P0083 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:24:08+0800 | world | block_remove (action=0) | location=P0084 | minecraft:iron_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:25:43+0800 | resworld | block_remove (action=0) | location=P0085 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:26:38+0800 | resworld | block_interact (action=2) | location=P0086 | minecraft:bamboo_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 20:26:39+0800 | resworld | block_interact (action=2) | location=P0087 | minecraft:bamboo_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:26:39+0800 | resworld | block_interact (action=2) | location=P0087 | minecraft:bamboo_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:32:30+0800 | world | block_remove (action=0) | location=P0088 | minecraft:wildflowers | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 20:32:30+0800 | world | block_remove (action=0) | location=P0089 | minecraft:short_grass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:32:30+0800 | world | block_remove (action=0) | location=P0090 | minecraft:wildflowers | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 20:32:31+0800 | world | block_remove (action=0) | location=P0091 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:32:40+0800 | world | block_remove (action=0) | location=P0092 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:32:40+0800 | world | block_remove (action=0) | location=P0093 | minecraft:wildflowers | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 20:32:41+0800 | world | block_remove (action=0) | location=P0094 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:35:13+0800 | world | block_interact (action=2) | location=P0095 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:35:16+0800 | world | block_interact (action=2) | location=P0096 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:35:17+0800 | world | block_interact (action=2) | location=P0097 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:35:22+0800 | world | block_interact (action=2) | location=P0098 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:35:49+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:49+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:50+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:50+0800 | world | block_interact (action=2) | location=P0100 | minecraft:comparator | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=9
+2026-10-09 20:35:51+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:51+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:51+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:51+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:51+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:52+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:52+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:52+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:52+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:52+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:53+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:53+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:54+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:54+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:57+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:57+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:58+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:58+0800 | world | block_interact (action=2) | location=P0099 | minecraft:lever | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:35:58+0800 | world | block_interact (action=2) | location=P0100 | minecraft:comparator | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=9
+2026-10-09 20:35:58+0800 | world | block_interact (action=2) | location=P0100 | minecraft:comparator | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=9
+2026-10-09 20:35:59+0800 | world | block_interact (action=2) | location=P0100 | minecraft:comparator | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=9
+2026-10-09 20:36:02+0800 | world | block_interact (action=2) | location=P0100 | minecraft:comparator | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=9
+2026-10-09 20:36:17+0800 | world | block_interact (action=2) | location=P0101 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:36:18+0800 | world | block_interact (action=2) | location=P0101 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:36:19+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:20+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:21+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:21+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:22+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:22+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:22+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:22+0800 | world | block_interact (action=2) | location=P0102 | minecraft:glow_item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:36:54+0800 | world | block_interact (action=2) | location=P0103 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:37:09+0800 | world | block_interact (action=2) | location=P0104 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:37:10+0800 | world | block_interact (action=2) | location=P0105 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:37:11+0800 | world | block_interact (action=2) | location=P0106 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:37:12+0800 | world | block_interact (action=2) | location=P0107 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:38:06+0800 | world | block_interact (action=2) | location=P0108 | minecraft:cherry_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:38:13+0800 | world | block_interact (action=2) | location=P0109 | minecraft:cherry_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:38:16+0800 | world | block_interact (action=2) | location=P0110 | minecraft:cherry_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:39:10+0800 | world | block_interact (action=2) | location=P0111 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:11+0800 | world | block_interact (action=2) | location=P0112 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:25+0800 | world | block_interact (action=2) | location=P0113 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:39:26+0800 | world | block_interact (action=2) | location=P0114 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:27+0800 | world | block_interact (action=2) | location=P0115 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:28+0800 | world | block_interact (action=2) | location=P0116 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:43+0800 | world | block_interact (action=2) | location=P0117 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:39:45+0800 | world | block_interact (action=2) | location=P0117 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:39:47+0800 | world | block_interact (action=2) | location=P0118 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:39:50+0800 | world | block_interact (action=2) | location=P0119 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:39:51+0800 | world | block_interact (action=2) | location=P0118 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:39:52+0800 | world | block_interact (action=2) | location=P0120 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:39:54+0800 | world | block_interact (action=2) | location=P0121 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:39:57+0800 | world | block_interact (action=2) | location=P0122 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:39:58+0800 | world | block_interact (action=2) | location=P0123 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:40:08+0800 | world | block_interact (action=2) | location=P0123 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:40:12+0800 | world | block_interact (action=2) | location=P0124 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:40:13+0800 | world | block_interact (action=2) | location=P0125 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:40:14+0800 | world | block_interact (action=2) | location=P0126 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:40:14+0800 | world | block_interact (action=2) | location=P0127 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:40:15+0800 | world | block_interact (action=2) | location=P0126 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:40:16+0800 | world | block_interact (action=2) | location=P0128 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:40:18+0800 | world | block_interact (action=2) | location=P0129 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:41:02+0800 | world | block_interact (action=2) | location=P0130 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:05+0800 | world | block_interact (action=2) | location=P0131 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:07+0800 | world | block_interact (action=2) | location=P0132 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:09+0800 | world | block_interact (action=2) | location=P0133 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:12+0800 | world | block_interact (action=2) | location=P0134 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:13+0800 | world | block_interact (action=2) | location=P0135 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:17+0800 | world | block_place (action=1) | location=P0136 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=1
+2026-10-09 20:41:17+0800 | world | block_remove (action=0) | location=P0136 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=1
+2026-10-09 20:41:19+0800 | world | block_interact (action=2) | location=P0137 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:41:20+0800 | world | block_interact (action=2) | location=P0138 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:27+0800 | world | block_interact (action=2) | location=P0134 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:27+0800 | world | block_interact (action=2) | location=P0133 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:29+0800 | world | block_interact (action=2) | location=P0133 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:30+0800 | world | block_place (action=1) | location=P0139 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:30+0800 | world | block_remove (action=0) | location=P0139 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:32+0800 | world | block_place (action=1) | location=P0139 | minecraft:wall_torch | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:32+0800 | world | block_interact (action=2) | location=P0140 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:41+0800 | world | block_interact (action=2) | location=P0140 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:41:48+0800 | world | block_interact (action=2) | location=P0130 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:54+0800 | world | block_interact (action=2) | location=P0141 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:56+0800 | world | block_interact (action=2) | location=P0142 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:41:59+0800 | world | block_interact (action=2) | location=P0143 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:42:14+0800 | world | block_interact (action=2) | location=P0123 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:42:27+0800 | world | block_interact (action=2) | location=P0122 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:42:37+0800 | world | block_interact (action=2) | location=P0124 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:42:37+0800 | world | block_interact (action=2) | location=P0128 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 20:42:38+0800 | world | block_interact (action=2) | location=P0124 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:42:52+0800 | world | block_interact (action=2) | location=P0117 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:42:54+0800 | world | block_interact (action=2) | location=P0117 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 20:43:30+0800 | world | block_interact (action=2) | location=P0144 | minecraft:oak_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 20:43:30+0800 | world | block_interact (action=2) | location=P0145 | minecraft:oak_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 20:43:31+0800 | world | block_interact (action=2) | location=P0146 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:44:10+0800 | world | block_interact (action=2) | location=P0146 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:44:20+0800 | world | block_interact (action=2) | location=P0147 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:49:42+0800 | world | block_interact (action=2) | location=P0148 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:49:59+0800 | world | block_interact (action=2) | location=P0149 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:50:00+0800 | world | block_interact (action=2) | location=P0150 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:50:00+0800 | world | block_interact (action=2) | location=P0149 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:50:01+0800 | world | block_interact (action=2) | location=P0151 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:50:02+0800 | world | block_interact (action=2) | location=P0152 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:50:03+0800 | world | block_interact (action=2) | location=P0153 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:10+0800 | world | block_interact (action=2) | location=P0154 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:17+0800 | world | block_interact (action=2) | location=P0155 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:21+0800 | world | block_interact (action=2) | location=P0156 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:23+0800 | world | block_interact (action=2) | location=P0157 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:24+0800 | world | block_interact (action=2) | location=P0157 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:26+0800 | world | block_interact (action=2) | location=P0158 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:51:28+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:51:28+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 20:54:12+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:54:13+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 20:57:22+0800 | world | block_interact (action=2) | location=P0161 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:57:35+0800 | world | block_interact (action=2) | location=P0162 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:57:37+0800 | world | block_interact (action=2) | location=P0163 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:57:38+0800 | world | block_interact (action=2) | location=P0164 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 20:57:58+0800 | world | block_interact (action=2) | location=P0165 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:58:11+0800 | world | block_interact (action=2) | location=P0166 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 20:58:39+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:58:44+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 20:59:14+0800 | world | block_interact (action=2) | location=P0167 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:59:57+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 20:59:59+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:00:11+0800 | world | block_interact (action=2) | location=P0165 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:00:14+0800 | world | block_interact (action=2) | location=P0168 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:00:15+0800 | world | block_interact (action=2) | location=P0169 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:00:16+0800 | world | block_interact (action=2) | location=P0170 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:00:20+0800 | world | block_interact (action=2) | location=P0171 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:00:48+0800 | world | block_interact (action=2) | location=P0172 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:00:50+0800 | world | block_interact (action=2) | location=P0173 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:00:51+0800 | world | block_interact (action=2) | location=P0174 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:00:56+0800 | world | block_interact (action=2) | location=P0175 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:00:57+0800 | world | block_interact (action=2) | location=P0175 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:00+0800 | world | block_interact (action=2) | location=P0176 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:02+0800 | world | block_interact (action=2) | location=P0165 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:03+0800 | world | block_interact (action=2) | location=P0177 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:04+0800 | world | block_interact (action=2) | location=P0178 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:06+0800 | world | block_interact (action=2) | location=P0179 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:07+0800 | world | block_interact (action=2) | location=P0180 | minecraft:item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:01:08+0800 | world | block_interact (action=2) | location=P0181 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:26+0800 | world | block_interact (action=2) | location=P0182 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:27+0800 | world | block_interact (action=2) | location=P0169 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:28+0800 | world | block_interact (action=2) | location=P0170 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:33+0800 | world | block_interact (action=2) | location=P0183 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:01:51+0800 | world | block_interact (action=2) | location=P0184 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:01:53+0800 | world | block_interact (action=2) | location=P0184 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:02:08+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:02:09+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:02:22+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:02:25+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:02:31+0800 | world | block_interact (action=2) | location=P0184 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:02:41+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:02:42+0800 | world | block_interact (action=2) | location=P0159 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:03:37+0800 | world | block_place (action=1) | location=P0185 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:03:38+0800 | world | block_remove (action=0) | location=P0185 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:03:56+0800 | world | block_place (action=1) | location=P0186 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:03:57+0800 | world | block_place (action=1) | location=P0187 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:03:58+0800 | world | block_remove (action=0) | location=P0186 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:36+0800 | world | block_interact (action=2) | location=P0117 | minecraft:spruce_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:38+0800 | world | block_place (action=1) | location=P0188 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:40+0800 | world | block_place (action=1) | location=P0189 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:47+0800 | world | block_place (action=1) | location=P0190 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:50+0800 | world | block_remove (action=0) | location=P0190 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:04:52+0800 | world | block_remove (action=0) | location=P0189 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:05+0800 | world | block_remove (action=0) | location=P0191 | minecraft:ochre_froglight | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:10+0800 | world | block_remove (action=0) | location=P0192 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:13+0800 | world | block_remove (action=0) | location=P0193 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:14+0800 | world | block_remove (action=0) | location=P0194 | minecraft:oak_leaves | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:06:17+0800 | world | block_remove (action=0) | location=P0195 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:18+0800 | world | block_remove (action=0) | location=P0196 | minecraft:oak_leaves | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:06:24+0800 | world | block_remove (action=0) | location=P0197 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:38+0800 | world | block_place (action=1) | location=P0198 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:38+0800 | world | block_place (action=1) | location=P0199 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:39+0800 | world | block_place (action=1) | location=P0200 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:40+0800 | world | block_place (action=1) | location=P0201 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:41+0800 | world | block_place (action=1) | location=P0202 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:42+0800 | world | block_place (action=1) | location=P0203 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:43+0800 | world | block_place (action=1) | location=P0204 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:44+0800 | world | block_place (action=1) | location=P0205 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:44+0800 | world | block_place (action=1) | location=P0206 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:46+0800 | world | block_place (action=1) | location=P0207 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:46+0800 | world | block_place (action=1) | location=P0208 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:46+0800 | world | block_place (action=1) | location=P0209 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:47+0800 | world | block_place (action=1) | location=P0210 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:47+0800 | world | block_place (action=1) | location=P0211 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:48+0800 | world | block_place (action=1) | location=P0212 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:06:48+0800 | world | block_place (action=1) | location=P0213 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:07:52+0800 | world | block_interact (action=2) | location=P0175 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:07:56+0800 | world | block_interact (action=2) | location=P0171 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:08:14+0800 | world | block_remove (action=0) | location=P0214 | minecraft:oak_leaves | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:08:17+0800 | world | block_remove (action=0) | location=P0215 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:20+0800 | world | block_remove (action=0) | location=P0216 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:24+0800 | world | block_remove (action=0) | location=P0217 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:27+0800 | world | block_remove (action=0) | location=P0218 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:31+0800 | world | block_remove (action=0) | location=P0219 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:34+0800 | world | block_remove (action=0) | location=P0220 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:38+0800 | world | block_remove (action=0) | location=P0221 | minecraft:birch_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:58+0800 | world | block_place (action=1) | location=P0222 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:59+0800 | world | block_place (action=1) | location=P0223 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:08:59+0800 | world | block_place (action=1) | location=P0224 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:00+0800 | world | block_place (action=1) | location=P0225 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:01+0800 | world | block_place (action=1) | location=P0226 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:01+0800 | world | block_place (action=1) | location=P0227 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:01+0800 | world | block_place (action=1) | location=P0228 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:02+0800 | world | block_place (action=1) | location=P0229 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:02+0800 | world | block_place (action=1) | location=P0230 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:04+0800 | world | block_remove (action=0) | location=P0231 | minecraft:short_grass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:04+0800 | world | block_place (action=1) | location=P0231 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:04+0800 | world | block_place (action=1) | location=P0232 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:06+0800 | world | block_place (action=1) | location=P0233 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:06+0800 | world | block_place (action=1) | location=P0234 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:06+0800 | world | block_place (action=1) | location=P0235 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:07+0800 | world | block_place (action=1) | location=P0236 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:08+0800 | world | block_place (action=1) | location=P0237 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:13+0800 | world | block_place (action=1) | location=P0238 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:14+0800 | world | block_place (action=1) | location=P0239 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:15+0800 | world | block_place (action=1) | location=P0240 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:15+0800 | world | block_place (action=1) | location=P0241 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:35+0800 | world | block_place (action=1) | location=P0242 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=3356 | blockdata_bytes=0
+2026-10-09 21:09:35+0800 | world | block_interact (action=2) | location=P0242 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:51+0800 | world | block_place (action=1) | location=P0243 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:09:51+0800 | world | block_interact (action=2) | location=P0243 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:10:06+0800 | world | block_interact (action=2) | location=P0243 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:10:08+0800 | world | block_interact (action=2) | location=P0243 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:10:42+0800 | world | block_place (action=1) | location=P0244 | minecraft:birch_sapling | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:10:48+0800 | world | block_interact (action=2) | location=P0242 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:10:49+0800 | world | block_interact (action=2) | location=P0243 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:00+0800 | world | block_remove (action=0) | location=P0238 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:26+0800 | world | block_place (action=1) | location=P0245 | minecraft:birch_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:29+0800 | world | block_remove (action=0) | location=P0244 | minecraft:birch_sapling | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:30+0800 | world | block_remove (action=0) | location=P0246 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:32+0800 | world | block_remove (action=0) | location=P0247 | minecraft:grass_block | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:11:33+0800 | world | block_place (action=1) | location=P0247 | minecraft:ochre_froglight | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=2
+2026-10-09 21:12:30+0800 | world | block_remove (action=0) | location=P0248 | minecraft:dirt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:31+0800 | world | block_remove (action=0) | location=P0249 | minecraft:sand | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:32+0800 | world | block_remove (action=0) | location=P0250 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:35+0800 | world | block_remove (action=0) | location=P0251 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:39+0800 | world | block_remove (action=0) | location=P0252 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:39+0800 | world | block_remove (action=0) | location=P0253 | minecraft:dirt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:40+0800 | world | block_remove (action=0) | location=P0254 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:41+0800 | world | block_remove (action=0) | location=P0255 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:42+0800 | world | block_remove (action=0) | location=P0256 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:42+0800 | world | block_remove (action=0) | location=P0257 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:43+0800 | world | block_remove (action=0) | location=P0258 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:44+0800 | world | block_remove (action=0) | location=P0259 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:45+0800 | world | block_remove (action=0) | location=P0260 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:45+0800 | world | block_remove (action=0) | location=P0261 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:46+0800 | world | block_remove (action=0) | location=P0262 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:47+0800 | world | block_remove (action=0) | location=P0263 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:47+0800 | world | block_remove (action=0) | location=P0264 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:48+0800 | world | block_remove (action=0) | location=P0265 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:49+0800 | world | block_remove (action=0) | location=P0266 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:50+0800 | world | block_remove (action=0) | location=P0267 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:50+0800 | world | block_remove (action=0) | location=P0268 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:52+0800 | world | block_remove (action=0) | location=P0269 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:52+0800 | world | block_remove (action=0) | location=P0270 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:53+0800 | world | block_remove (action=0) | location=P0271 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:54+0800 | world | block_remove (action=0) | location=P0272 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:54+0800 | world | block_remove (action=0) | location=P0273 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:55+0800 | world | block_remove (action=0) | location=P0274 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:56+0800 | world | block_remove (action=0) | location=P0275 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:57+0800 | world | block_remove (action=0) | location=P0276 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:57+0800 | world | block_remove (action=0) | location=P0277 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:58+0800 | world | block_remove (action=0) | location=P0278 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:59+0800 | world | block_remove (action=0) | location=P0279 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:12:59+0800 | world | block_remove (action=0) | location=P0280 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:00+0800 | world | block_remove (action=0) | location=P0281 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:01+0800 | world | block_remove (action=0) | location=P0282 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:09+0800 | world | block_remove (action=0) | location=P0283 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:10+0800 | world | block_remove (action=0) | location=P0284 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:11+0800 | world | block_remove (action=0) | location=P0285 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:12+0800 | world | block_remove (action=0) | location=P0286 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:16+0800 | world | block_remove (action=0) | location=P0287 | minecraft:oak_leaves | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:13:16+0800 | world | block_remove (action=0) | location=P0288 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:21+0800 | world | block_remove (action=0) | location=P0289 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:23+0800 | world | block_remove (action=0) | location=P0290 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:24+0800 | world | block_remove (action=0) | location=P0291 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:24+0800 | world | block_remove (action=0) | location=P0292 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:25+0800 | world | block_remove (action=0) | location=P0293 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:26+0800 | world | block_remove (action=0) | location=P0294 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:31+0800 | world | block_remove (action=0) | location=P0295 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:32+0800 | world | block_remove (action=0) | location=P0296 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:33+0800 | world | block_remove (action=0) | location=P0297 | minecraft:oak_leaves | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:13:33+0800 | world | block_remove (action=0) | location=P0298 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:13:34+0800 | world | block_remove (action=0) | location=P0299 | minecraft:oak_log | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:14:16+0800 | world | block_place (action=1) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:14:17+0800 | world | block_interact (action=2) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:14:20+0800 | world | block_place (action=1) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:14:21+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:14:21+0800 | world | block_place (action=1) | location=P0275 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:14:25+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:14:30+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:14:48+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:16:50+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:17:04+0800 | world | block_remove (action=0) | location=P0300 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:05+0800 | world | block_remove (action=0) | location=P0301 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:06+0800 | world | block_remove (action=0) | location=P0302 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:07+0800 | world | block_remove (action=0) | location=P0303 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:08+0800 | world | block_remove (action=0) | location=P0304 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:08+0800 | world | block_remove (action=0) | location=P0305 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:10+0800 | world | block_remove (action=0) | location=P0306 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:10+0800 | world | block_remove (action=0) | location=P0307 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:11+0800 | world | block_remove (action=0) | location=P0308 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:12+0800 | world | block_remove (action=0) | location=P0309 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:12+0800 | world | block_remove (action=0) | location=P0310 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:13+0800 | world | block_remove (action=0) | location=P0311 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:14+0800 | world | block_remove (action=0) | location=P0312 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:14+0800 | world | block_remove (action=0) | location=P0313 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:15+0800 | world | block_remove (action=0) | location=P0314 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:16+0800 | world | block_remove (action=0) | location=P0315 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:17+0800 | world | block_remove (action=0) | location=P0316 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:17+0800 | world | block_remove (action=0) | location=P0317 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:19+0800 | world | block_remove (action=0) | location=P0318 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:19+0800 | world | block_remove (action=0) | location=P0319 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:20+0800 | world | block_remove (action=0) | location=P0320 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:21+0800 | world | block_remove (action=0) | location=P0321 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:21+0800 | world | block_remove (action=0) | location=P0322 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:26+0800 | world | block_remove (action=0) | location=P0323 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:27+0800 | world | block_remove (action=0) | location=P0324 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:27+0800 | world | block_remove (action=0) | location=P0325 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:28+0800 | world | block_remove (action=0) | location=P0326 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:29+0800 | world | block_remove (action=0) | location=P0327 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:31+0800 | world | block_remove (action=0) | location=P0328 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:33+0800 | world | block_remove (action=0) | location=P0329 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:34+0800 | world | block_remove (action=0) | location=P0330 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:34+0800 | world | block_remove (action=0) | location=P0331 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:35+0800 | world | block_remove (action=0) | location=P0332 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:36+0800 | world | block_remove (action=0) | location=P0333 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:37+0800 | world | block_remove (action=0) | location=P0334 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:37+0800 | world | block_remove (action=0) | location=P0335 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:38+0800 | world | block_remove (action=0) | location=P0336 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:39+0800 | world | block_remove (action=0) | location=P0337 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:40+0800 | world | block_remove (action=0) | location=P0338 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:41+0800 | world | block_remove (action=0) | location=P0339 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:42+0800 | world | block_remove (action=0) | location=P0340 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:17:49+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:17:53+0800 | world | block_interact (action=2) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:18:03+0800 | world | block_place (action=1) | location=P0269 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:18:25+0800 | world | block_remove (action=0) | location=P0269 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:18:28+0800 | world | block_place (action=1) | location=P0279 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:18:41+0800 | world | block_place (action=1) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:18:56+0800 | world | block_remove (action=0) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:18:57+0800 | world | block_remove (action=0) | location=P0279 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:19:02+0800 | world | block_interact (action=2) | location=P0275 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:19:14+0800 | world | block_interact (action=2) | location=P0275 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:19:17+0800 | world | block_place (action=1) | location=P0304 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:19:21+0800 | world | block_remove (action=0) | location=P0341 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:21+0800 | world | block_remove (action=0) | location=P0342 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:22+0800 | world | block_remove (action=0) | location=P0343 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:23+0800 | world | block_remove (action=0) | location=P0344 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:23+0800 | world | block_remove (action=0) | location=P0345 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:24+0800 | world | block_remove (action=0) | location=P0346 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:25+0800 | world | block_remove (action=0) | location=P0347 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:25+0800 | world | block_remove (action=0) | location=P0348 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:26+0800 | world | block_remove (action=0) | location=P0349 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:27+0800 | world | block_remove (action=0) | location=P0350 | minecraft:iron_ore | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:28+0800 | world | block_remove (action=0) | location=P0351 | minecraft:iron_ore | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:33+0800 | world | block_interact (action=2) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:19:50+0800 | world | block_place (action=1) | location=P0344 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:51+0800 | world | block_place (action=1) | location=P0342 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:51+0800 | world | block_place (action=1) | location=P0343 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:51+0800 | world | block_place (action=1) | location=P0348 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:52+0800 | world | block_place (action=1) | location=P0346 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:52+0800 | world | block_place (action=1) | location=P0345 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:19:53+0800 | world | block_place (action=1) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:02+0800 | world | block_remove (action=0) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:03+0800 | world | block_place (action=1) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:09+0800 | world | block_remove (action=0) | location=P0301 | minecraft:oak_sign | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:12+0800 | world | block_place (action=1) | location=P0341 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:13+0800 | world | block_place (action=1) | location=P0347 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:14+0800 | world | block_remove (action=0) | location=P0352 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:15+0800 | world | block_remove (action=0) | location=P0353 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:16+0800 | world | block_remove (action=0) | location=P0354 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:20+0800 | world | block_remove (action=0) | location=P0355 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:21+0800 | world | block_remove (action=0) | location=P0356 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:22+0800 | world | block_remove (action=0) | location=P0357 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:22+0800 | world | block_remove (action=0) | location=P0358 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:23+0800 | world | block_remove (action=0) | location=P0359 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:24+0800 | world | block_remove (action=0) | location=P0360 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:25+0800 | world | block_remove (action=0) | location=P0361 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:26+0800 | world | block_remove (action=0) | location=P0362 | minecraft:stone | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:28+0800 | world | block_place (action=1) | location=P0362 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:28+0800 | world | block_place (action=1) | location=P0349 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:29+0800 | world | block_place (action=1) | location=P0361 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:29+0800 | world | block_place (action=1) | location=P0352 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:29+0800 | world | block_place (action=1) | location=P0353 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:30+0800 | world | block_place (action=1) | location=P0360 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:30+0800 | world | block_place (action=1) | location=P0359 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:31+0800 | world | block_place (action=1) | location=P0354 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:32+0800 | world | block_place (action=1) | location=P0357 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:32+0800 | world | block_place (action=1) | location=P0355 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:32+0800 | world | block_place (action=1) | location=P0358 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:33+0800 | world | block_place (action=1) | location=P0356 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:35+0800 | world | block_place (action=1) | location=P0350 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:35+0800 | world | block_remove (action=0) | location=P0350 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:35+0800 | world | block_place (action=1) | location=P0350 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:37+0800 | world | block_remove (action=0) | location=P0363 | minecraft:dirt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:20:37+0800 | world | block_place (action=1) | location=P0363 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:38+0800 | world | block_place (action=1) | location=P0253 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:38+0800 | world | block_remove (action=0) | location=P0363 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:38+0800 | world | block_place (action=1) | location=P0363 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=6
+2026-10-09 21:20:39+0800 | world | block_place (action=1) | location=P0255 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:39+0800 | world | block_place (action=1) | location=P0257 | minecraft:cobblestone_slab | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:20:57+0800 | world | block_interact (action=2) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:21:04+0800 | world | block_interact (action=2) | location=P0304 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:21:04+0800 | world | block_place (action=1) | location=P0318 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:21:05+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:21:09+0800 | world | block_interact (action=2) | location=P0275 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:21:22+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:23:36+0800 | world | block_interact (action=2) | location=P0364 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:26:34+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:26:34+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:26:35+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:26:37+0800 | world | block_interact (action=2) | location=P0160 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:27:12+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:27:16+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:27:16+0800 | world | block_interact (action=2) | location=P0304 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:28:40+0800 | world | block_interact (action=2) | location=P0275 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:28:45+0800 | world | block_interact (action=2) | location=P0318 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:28:46+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:32:42+0800 | world | block_place (action=1) | location=P0365 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:34:10+0800 | world_nether | block_interact (action=2) | location=P0366 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:34+0800 | world | block_interact (action=2) | location=P0367 | minecraft:dark_oak_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:34:35+0800 | world | block_interact (action=2) | location=P0367 | minecraft:dark_oak_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:34:40+0800 | world | block_interact (action=2) | location=P0368 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:42+0800 | world | block_interact (action=2) | location=P0369 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:43+0800 | world | block_interact (action=2) | location=P0370 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:43+0800 | world | block_interact (action=2) | location=P0371 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:44+0800 | world | block_interact (action=2) | location=P0371 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:51+0800 | world | block_interact (action=2) | location=P0371 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:34:52+0800 | world | block_place (action=1) | location=P0372 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:34:53+0800 | world | block_place (action=1) | location=P0373 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:34:53+0800 | world | block_place (action=1) | location=P0374 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:34:54+0800 | world | block_place (action=1) | location=P0375 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:00+0800 | world | block_place (action=1) | location=P0376 | minecraft:heavy_weighted_pressure_plate | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:03+0800 | world | block_interact (action=2) | location=P0377 | minecraft:dark_oak_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:35:05+0800 | world | block_interact (action=2) | location=P0377 | minecraft:dark_oak_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:35:12+0800 | world | block_interact (action=2) | location=P0378 | minecraft:birch_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:35:12+0800 | world | block_interact (action=2) | location=P0379 | minecraft:birch_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:35:16+0800 | world | block_place (action=1) | location=P0380 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:16+0800 | world | block_place (action=1) | location=P0381 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:18+0800 | world | block_place (action=1) | location=P0382 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:18+0800 | world | block_place (action=1) | location=P0383 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:21+0800 | world | block_remove (action=0) | location=P0383 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:21+0800 | world | block_remove (action=0) | location=P0381 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:23+0800 | world | block_interact (action=2) | location=P0384 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:35:23+0800 | world | block_interact (action=2) | location=P0385 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:35:30+0800 | world | block_interact (action=2) | location=P0386 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=2
+2026-10-09 21:35:33+0800 | world | block_place (action=1) | location=P0387 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:34+0800 | world | block_remove (action=0) | location=P0387 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:35+0800 | world | block_interact (action=2) | location=P0386 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=2
+2026-10-09 21:35:36+0800 | world | block_interact (action=2) | location=P0379 | minecraft:birch_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:35:47+0800 | world | block_place (action=1) | location=P0388 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:48+0800 | world | block_place (action=1) | location=P0389 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:49+0800 | world | block_place (action=1) | location=P0390 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:52+0800 | world | block_place (action=1) | location=P0391 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:53+0800 | world | block_place (action=1) | location=P0392 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:54+0800 | world | block_place (action=1) | location=P0393 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:55+0800 | world | block_place (action=1) | location=P0394 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:56+0800 | world | block_remove (action=0) | location=P0394 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:58+0800 | world | block_place (action=1) | location=P0395 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:58+0800 | world | block_place (action=1) | location=P0396 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:58+0800 | world | block_place (action=1) | location=P0397 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:59+0800 | world | block_place (action=1) | location=P0398 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:35:59+0800 | world | block_place (action=1) | location=P0399 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:01+0800 | world | block_remove (action=0) | location=P0399 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:05+0800 | world | block_place (action=1) | location=P0400 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:06+0800 | world | block_remove (action=0) | location=P0401 | minecraft:short_grass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:06+0800 | world | block_place (action=1) | location=P0401 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:06+0800 | world | block_place (action=1) | location=P0402 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:08+0800 | world | block_remove (action=0) | location=P0402 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:10+0800 | world | block_interact (action=2) | location=P0403 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:36:10+0800 | world | block_interact (action=2) | location=P0404 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:36:10+0800 | world | block_place (action=1) | location=P0405 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:10+0800 | world | block_place (action=1) | location=P0406 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:10+0800 | world | block_place (action=1) | location=P0407 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:11+0800 | world | block_place (action=1) | location=P0408 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:11+0800 | world | block_interact (action=2) | location=P0409 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_place (action=1) | location=P0410 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_interact (action=2) | location=P0409 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_place (action=1) | location=P0411 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_interact (action=2) | location=P0412 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_place (action=1) | location=P0413 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:13+0800 | world | block_interact (action=2) | location=P0414 | minecraft:hopper | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=4
+2026-10-09 21:36:14+0800 | world | block_remove (action=0) | location=P0410 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:19+0800 | world | block_place (action=1) | location=P0415 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:19+0800 | world | block_place (action=1) | location=P0416 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:20+0800 | world | block_place (action=1) | location=P0417 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:20+0800 | world | block_place (action=1) | location=P0418 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:21+0800 | world | block_place (action=1) | location=P0419 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:21+0800 | world | block_place (action=1) | location=P0420 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:21+0800 | world | block_place (action=1) | location=P0421 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:22+0800 | world | block_remove (action=0) | location=P0421 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:24+0800 | world | block_place (action=1) | location=P0422 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:25+0800 | world | block_place (action=1) | location=P0423 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:25+0800 | world | block_place (action=1) | location=P0424 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:27+0800 | world | block_remove (action=0) | location=P0422 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:33+0800 | world | block_place (action=1) | location=P0425 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:34+0800 | world | block_place (action=1) | location=P0426 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:34+0800 | world | block_place (action=1) | location=P0427 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:34+0800 | world | block_place (action=1) | location=P0428 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:35+0800 | world | block_place (action=1) | location=P0429 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:35+0800 | world | block_place (action=1) | location=P0430 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:35+0800 | world | block_place (action=1) | location=P0431 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:36+0800 | world | block_place (action=1) | location=P0432 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:37+0800 | world | block_remove (action=0) | location=P0432 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:38+0800 | world | block_place (action=1) | location=P0433 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:38+0800 | world | block_place (action=1) | location=P0434 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:38+0800 | world | block_place (action=1) | location=P0435 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:39+0800 | world | block_place (action=1) | location=P0436 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:39+0800 | world | block_place (action=1) | location=P0437 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:39+0800 | world | block_place (action=1) | location=P0438 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:39+0800 | world | block_place (action=1) | location=P0439 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:41+0800 | world | block_remove (action=0) | location=P0438 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:52+0800 | world | block_interact (action=2) | location=P0440 | minecraft:cherry_button | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:36:52+0800 | world | block_place (action=1) | location=P0441 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:52+0800 | world | block_interact (action=2) | location=P0442 | minecraft:cherry_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=13
+2026-10-09 21:36:52+0800 | world | block_place (action=1) | location=P0443 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:53+0800 | world | block_place (action=1) | location=P0444 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:53+0800 | world | block_place (action=1) | location=P0445 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:53+0800 | world | block_place (action=1) | location=P0446 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:53+0800 | world | block_place (action=1) | location=P0447 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:54+0800 | world | block_place (action=1) | location=P0448 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:55+0800 | world | block_place (action=1) | location=P0449 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:55+0800 | world | block_place (action=1) | location=P0450 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:55+0800 | world | block_place (action=1) | location=P0451 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:55+0800 | world | block_place (action=1) | location=P0452 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:56+0800 | world | block_place (action=1) | location=P0453 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:36:57+0800 | world | block_remove (action=0) | location=P0443 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:11+0800 | world | block_place (action=1) | location=P0454 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:11+0800 | world | block_place (action=1) | location=P0455 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_place (action=1) | location=P0456 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_place (action=1) | location=P0457 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_place (action=1) | location=P0458 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_place (action=1) | location=P0459 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_place (action=1) | location=P0460 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:12+0800 | world | block_interact (action=2) | location=P0461 | minecraft:cherry_trapdoor | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=13
+2026-10-09 21:37:13+0800 | world | block_place (action=1) | location=P0462 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:14+0800 | world | block_remove (action=0) | location=P0462 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:25+0800 | world | block_remove (action=0) | location=P0458 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:37:30+0800 | world | block_interact (action=2) | location=P0463 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:37:38+0800 | world | block_interact (action=2) | location=P0464 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:37:46+0800 | world | block_interact (action=2) | location=P0465 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:38:59+0800 | world_nether | block_interact (action=2) | location=P0466 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:39:03+0800 | world_nether | block_interact (action=2) | location=P0467 | minecraft:stone_button | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:39:42+0800 | world | block_interact (action=2) | location=P0468 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:39:44+0800 | world | block_interact (action=2) | location=P0469 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:39:46+0800 | world | block_interact (action=2) | location=P0470 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:39:47+0800 | world | block_interact (action=2) | location=P0471 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:09+0800 | world | block_interact (action=2) | location=P0472 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:10+0800 | world | block_interact (action=2) | location=P0473 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:12+0800 | world | block_interact (action=2) | location=P0474 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:13+0800 | world | block_interact (action=2) | location=P0475 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:20+0800 | world | block_interact (action=2) | location=P0476 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:24+0800 | world | block_interact (action=2) | location=P0477 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:25+0800 | world | block_interact (action=2) | location=P0478 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:25+0800 | world | block_interact (action=2) | location=P0477 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:28+0800 | world | block_interact (action=2) | location=P0479 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:29+0800 | world | block_interact (action=2) | location=P0479 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:30+0800 | world | block_interact (action=2) | location=P0478 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:31+0800 | world | block_interact (action=2) | location=P0480 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:31+0800 | world | block_interact (action=2) | location=P0481 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:32+0800 | world | block_interact (action=2) | location=P0482 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:33+0800 | world | block_interact (action=2) | location=P0483 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:34+0800 | world | block_interact (action=2) | location=P0484 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:35+0800 | world | block_interact (action=2) | location=P0485 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:40:37+0800 | world | block_interact (action=2) | location=P0486 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:39+0800 | world | block_interact (action=2) | location=P0487 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:40+0800 | world | block_interact (action=2) | location=P0486 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:41+0800 | world | block_interact (action=2) | location=P0488 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:42+0800 | world | block_interact (action=2) | location=P0489 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:43+0800 | world | block_interact (action=2) | location=P0490 | minecraft:item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:40:46+0800 | world | block_interact (action=2) | location=P0491 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:50+0800 | world | block_interact (action=2) | location=P0492 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:51+0800 | world | block_interact (action=2) | location=P0493 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:53+0800 | world | block_interact (action=2) | location=P0494 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:40:57+0800 | world | block_interact (action=2) | location=P0495 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:40:58+0800 | world | block_interact (action=2) | location=P0495 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:00+0800 | world | block_interact (action=2) | location=P0496 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:01+0800 | world | block_interact (action=2) | location=P0497 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:02+0800 | world | block_place (action=1) | location=P0498 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:03+0800 | world | block_remove (action=0) | location=P0498 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:33+0800 | world | block_interact (action=2) | location=P0499 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:41:35+0800 | world | block_interact (action=2) | location=P0500 | minecraft:item_frame | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:41:37+0800 | world | block_interact (action=2) | location=P0501 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:41:40+0800 | world | block_interact (action=2) | location=P0502 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:42:00+0800 | world | block_interact (action=2) | location=P0503 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:42:01+0800 | world | block_interact (action=2) | location=P0504 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:42:01+0800 | world | block_interact (action=2) | location=P0505 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:42:09+0800 | world | block_interact (action=2) | location=P0506 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:11+0800 | world | block_interact (action=2) | location=P0507 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:14+0800 | world | block_interact (action=2) | location=P0508 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:15+0800 | world | block_interact (action=2) | location=P0508 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:16+0800 | world | block_interact (action=2) | location=P0509 | minecraft:magenta_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:16+0800 | world | block_interact (action=2) | location=P0510 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:17+0800 | world | block_interact (action=2) | location=P0511 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:18+0800 | world | block_interact (action=2) | location=P0511 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:42:21+0800 | world | block_interact (action=2) | location=P0469 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:22+0800 | world | block_interact (action=2) | location=P0469 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:33+0800 | world | block_interact (action=2) | location=P0468 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:42:35+0800 | world | block_interact (action=2) | location=P0468 | minecraft:ender_chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 21:42:44+0800 | world | block_interact (action=2) | location=P0512 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:49+0800 | world | block_interact (action=2) | location=P0513 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:51+0800 | world | block_interact (action=2) | location=P0514 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:56+0800 | world | block_interact (action=2) | location=P0515 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:57+0800 | world | block_interact (action=2) | location=P0516 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:42:59+0800 | world | block_interact (action=2) | location=P0515 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:00+0800 | world | block_interact (action=2) | location=P0517 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:02+0800 | world | block_interact (action=2) | location=P0518 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:05+0800 | world | block_interact (action=2) | location=P0519 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:05+0800 | world | block_interact (action=2) | location=P0513 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:07+0800 | world | block_interact (action=2) | location=P0520 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:08+0800 | world | block_interact (action=2) | location=P0521 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:09+0800 | world | block_interact (action=2) | location=P0522 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:10+0800 | world | block_place (action=1) | location=P0523 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:43:11+0800 | world | block_interact (action=2) | location=P0524 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:12+0800 | world | block_remove (action=0) | location=P0523 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:43:21+0800 | world | block_interact (action=2) | location=P0476 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:21+0800 | world | block_interact (action=2) | location=P0525 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:22+0800 | world | block_interact (action=2) | location=P0478 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:26+0800 | world | block_interact (action=2) | location=P0478 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:29+0800 | world | block_interact (action=2) | location=P0478 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:31+0800 | world | block_interact (action=2) | location=P0526 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:32+0800 | world | block_interact (action=2) | location=P0479 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:33+0800 | world | block_interact (action=2) | location=P0480 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:34+0800 | world | block_interact (action=2) | location=P0482 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:43:40+0800 | world | block_interact (action=2) | location=P0487 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:43:41+0800 | world | block_interact (action=2) | location=P0527 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:43:42+0800 | world | block_interact (action=2) | location=P0528 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:43:44+0800 | world | block_interact (action=2) | location=P0529 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=2
+2026-10-09 21:43:45+0800 | world | block_interact (action=2) | location=P0530 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:43:46+0800 | world | block_interact (action=2) | location=P0491 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:43:50+0800 | world | block_place (action=1) | location=P0531 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:43:50+0800 | world | block_remove (action=0) | location=P0531 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:43:51+0800 | world | block_interact (action=2) | location=P0532 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:43:52+0800 | world | block_interact (action=2) | location=P0533 | minecraft:red_shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:44:38+0800 | world_nether | block_interact (action=2) | location=P0534 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:39+0800 | world_nether | block_interact (action=2) | location=P0535 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:39+0800 | world_nether | block_interact (action=2) | location=P0535 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:40+0800 | world_nether | block_interact (action=2) | location=P0536 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:41+0800 | world_nether | block_interact (action=2) | location=P0537 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:43+0800 | world_nether | block_interact (action=2) | location=P0538 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:44:50+0800 | world_nether | block_remove (action=0) | location=P0539 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:44:59+0800 | world_nether | block_place (action=1) | location=P0540 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:44:59+0800 | world_nether | block_place (action=1) | location=P0541 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:00+0800 | world_nether | block_remove (action=0) | location=P0541 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:14+0800 | world_nether | block_remove (action=0) | location=P0542 | minecraft:vine | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:45:14+0800 | world_nether | block_remove (action=0) | location=P0543 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:15+0800 | world_nether | block_remove (action=0) | location=P0542 | minecraft:vine | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:45:15+0800 | world_nether | block_remove (action=0) | location=P0544 | minecraft:vine | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=14
+2026-10-09 21:45:15+0800 | world_nether | block_remove (action=0) | location=P0545 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:16+0800 | world_nether | block_remove (action=0) | location=P0546 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:17+0800 | world_nether | block_remove (action=0) | location=P0547 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:19+0800 | world_nether | block_remove (action=0) | location=P0548 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:45:20+0800 | world_nether | block_remove (action=0) | location=P0549 | minecraft:glass | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:46:11+0800 | world_nether | block_interact (action=2) | location=P0550 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:46:45+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:46:50+0800 | world | block_interact (action=2) | location=P0552 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:46:51+0800 | world | block_interact (action=2) | location=P0553 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:46:59+0800 | world | block_interact (action=2) | location=P0554 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:47:08+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:47:09+0800 | world | block_interact (action=2) | location=P0555 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:47:10+0800 | world | block_interact (action=2) | location=P0556 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:47:57+0800 | world | block_interact (action=2) | location=P0557 | minecraft:pale_oak_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:48:11+0800 | world | block_interact (action=2) | location=P0558 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:48:15+0800 | world | block_interact (action=2) | location=P0559 | minecraft:barrel | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:48:17+0800 | world | block_interact (action=2) | location=P0557 | minecraft:pale_oak_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:48:29+0800 | world | block_interact (action=2) | location=P0557 | minecraft:pale_oak_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=16
+2026-10-09 21:49:27+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:49:37+0800 | world | block_place (action=1) | location=P0560 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:49:37+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:49:40+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:49:50+0800 | world | block_interact (action=2) | location=P0561 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:49:54+0800 | world | block_interact (action=2) | location=P0561 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:11+0800 | world | block_interact (action=2) | location=P0562 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:15+0800 | world | block_interact (action=2) | location=P0563 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:50:18+0800 | world | block_interact (action=2) | location=P0564 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:50:25+0800 | world | block_interact (action=2) | location=P0565 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:37+0800 | world | block_interact (action=2) | location=P0566 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:41+0800 | world | block_interact (action=2) | location=P0567 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:42+0800 | world | block_interact (action=2) | location=P0568 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:43+0800 | world | block_interact (action=2) | location=P0569 | minecraft:furnace | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=4
+2026-10-09 21:50:44+0800 | world | block_interact (action=2) | location=P0570 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:46+0800 | world | block_interact (action=2) | location=P0571 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:46+0800 | world | block_interact (action=2) | location=P0571 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:46+0800 | world | block_interact (action=2) | location=P0572 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=8
+2026-10-09 21:50:53+0800 | world | block_place (action=1) | location=P0573 | minecraft:fire | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:51:01+0800 | world | block_interact (action=2) | location=P0574 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:51:02+0800 | world | block_interact (action=2) | location=P0575 | minecraft:barrel | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=4
+2026-10-09 21:51:11+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:51:17+0800 | world | block_interact (action=2) | location=P0551 | minecraft:spruce_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:52:47+0800 | world_nether | block_interact (action=2) | location=P0550 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:52:48+0800 | world_nether | block_interact (action=2) | location=P0550 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:52:50+0800 | world_nether | block_interact (action=2) | location=P0576 | minecraft:stone_button | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:52:50+0800 | world_nether | block_interact (action=2) | location=P0576 | minecraft:stone_button | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:53:39+0800 | world | block_interact (action=2) | location=P0577 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:53:39+0800 | world | block_interact (action=2) | location=P0578 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:53:41+0800 | world | block_interact (action=2) | location=P0579 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:53:41+0800 | world | block_interact (action=2) | location=P0580 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:53:42+0800 | world | block_interact (action=2) | location=P0581 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:53:43+0800 | world | block_interact (action=2) | location=P0582 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:53:44+0800 | world | block_interact (action=2) | location=P0583 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:53:45+0800 | world | block_interact (action=2) | location=P0584 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:53:46+0800 | world | block_interact (action=2) | location=P0585 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:53:47+0800 | world | block_interact (action=2) | location=P0586 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:54:04+0800 | world | block_interact (action=2) | location=P0587 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:17+0800 | world | block_place (action=1) | location=P0588 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:17+0800 | world | block_place (action=1) | location=P0589 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:19+0800 | world | block_place (action=1) | location=P0590 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:19+0800 | world | block_place (action=1) | location=P0591 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:19+0800 | world | block_place (action=1) | location=P0592 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:19+0800 | world | block_place (action=1) | location=P0593 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:20+0800 | world | block_place (action=1) | location=P0594 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:20+0800 | world | block_place (action=1) | location=P0595 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:20+0800 | world | block_place (action=1) | location=P0596 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:20+0800 | world | block_place (action=1) | location=P0597 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:21+0800 | world | block_place (action=1) | location=P0598 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:21+0800 | world | block_place (action=1) | location=P0599 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:21+0800 | world | block_place (action=1) | location=P0600 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:21+0800 | world | block_place (action=1) | location=P0601 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:21+0800 | world | block_place (action=1) | location=P0602 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:22+0800 | world | block_place (action=1) | location=P0603 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:22+0800 | world | block_place (action=1) | location=P0604 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:22+0800 | world | block_place (action=1) | location=P0605 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:22+0800 | world | block_place (action=1) | location=P0606 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:23+0800 | world | block_place (action=1) | location=P0607 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:23+0800 | world | block_place (action=1) | location=P0608 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:23+0800 | world | block_place (action=1) | location=P0609 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:23+0800 | world | block_place (action=1) | location=P0610 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:23+0800 | world | block_place (action=1) | location=P0611 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:24+0800 | world | block_place (action=1) | location=P0612 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:24+0800 | world | block_place (action=1) | location=P0613 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:24+0800 | world | block_place (action=1) | location=P0614 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:24+0800 | world | block_place (action=1) | location=P0615 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:25+0800 | world | block_place (action=1) | location=P0616 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:25+0800 | world | block_place (action=1) | location=P0617 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:26+0800 | world | block_place (action=1) | location=P0618 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:26+0800 | world | block_place (action=1) | location=P0619 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:27+0800 | world | block_place (action=1) | location=P0620 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:30+0800 | world | block_remove (action=0) | location=P0618 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:31+0800 | world | block_remove (action=0) | location=P0616 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:32+0800 | world | block_place (action=1) | location=P0621 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_interact (action=2) | location=P0622 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_interact (action=2) | location=P0623 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_place (action=1) | location=P0624 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_place (action=1) | location=P0625 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_interact (action=2) | location=P0626 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_interact (action=2) | location=P0627 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_place (action=1) | location=P0628 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:43+0800 | world | block_place (action=1) | location=P0629 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:44+0800 | world | block_interact (action=2) | location=P0630 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:44+0800 | world | block_place (action=1) | location=P0631 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:44+0800 | world | block_interact (action=2) | location=P0632 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:44+0800 | world | block_place (action=1) | location=P0633 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:46+0800 | world | block_remove (action=0) | location=P0633 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:58+0800 | world | block_remove (action=0) | location=P0613 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:54:58+0800 | world | block_remove (action=0) | location=P0614 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:58:13+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:58:14+0800 | world | block_interact (action=2) | location=P0304 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:58:15+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:58:17+0800 | world | block_interact (action=2) | location=P0272 | minecraft:crafting_table | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:58:18+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:58:21+0800 | world | block_interact (action=2) | location=P0318 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:58:27+0800 | world | block_interact (action=2) | location=P0242 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:58:53+0800 | world | block_interact (action=2) | location=P0634 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:58:53+0800 | world | block_interact (action=2) | location=P0635 | minecraft:cherry_door | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=15
+2026-10-09 21:59:00+0800 | world | block_interact (action=2) | location=P0155 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 21:59:13+0800 | world | block_place (action=1) | location=P0636 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:13+0800 | world | block_place (action=1) | location=P0637 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:13+0800 | world | block_place (action=1) | location=P0638 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:13+0800 | world | block_place (action=1) | location=P0639 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:14+0800 | world | block_place (action=1) | location=P0640 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:14+0800 | world | block_place (action=1) | location=P0641 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:14+0800 | world | block_place (action=1) | location=P0642 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:14+0800 | world | block_place (action=1) | location=P0643 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:14+0800 | world | block_place (action=1) | location=P0644 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:15+0800 | world | block_place (action=1) | location=P0645 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:15+0800 | world | block_place (action=1) | location=P0646 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:15+0800 | world | block_place (action=1) | location=P0647 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:15+0800 | world | block_place (action=1) | location=P0648 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:15+0800 | world | block_place (action=1) | location=P0649 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:16+0800 | world | block_place (action=1) | location=P0650 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:16+0800 | world | block_place (action=1) | location=P0651 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:17+0800 | world | block_place (action=1) | location=P0652 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:17+0800 | world | block_place (action=1) | location=P0653 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:17+0800 | world | block_place (action=1) | location=P0654 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:18+0800 | world | block_place (action=1) | location=P0655 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:18+0800 | world | block_place (action=1) | location=P0656 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:20+0800 | world | block_place (action=1) | location=P0657 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:20+0800 | world | block_place (action=1) | location=P0658 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:20+0800 | world | block_place (action=1) | location=P0659 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:20+0800 | world | block_place (action=1) | location=P0660 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:21+0800 | world | block_place (action=1) | location=P0661 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:21+0800 | world | block_place (action=1) | location=P0662 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:21+0800 | world | block_place (action=1) | location=P0663 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:21+0800 | world | block_place (action=1) | location=P0664 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:22+0800 | world | block_place (action=1) | location=P0665 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:22+0800 | world | block_place (action=1) | location=P0666 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:22+0800 | world | block_place (action=1) | location=P0667 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:22+0800 | world | block_place (action=1) | location=P0668 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:23+0800 | world | block_place (action=1) | location=P0669 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:23+0800 | world | block_place (action=1) | location=P0670 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:24+0800 | world | block_remove (action=0) | location=P0665 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:25+0800 | world | block_remove (action=0) | location=P0670 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:26+0800 | world | block_remove (action=0) | location=P0661 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 21:59:27+0800 | world | block_remove (action=0) | location=P0655 | minecraft:tnt | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:00+0800 | world | block_interact (action=2) | location=P0671 | minecraft:barrel | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=5
+2026-10-09 22:00:00+0800 | world | block_place (action=1) | location=P0672 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:04+0800 | world | block_remove (action=0) | location=P0672 | minecraft:oak_planks | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:10+0800 | world | block_interact (action=2) | location=P0151 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:11+0800 | world | block_interact (action=2) | location=P0150 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:12+0800 | world | block_interact (action=2) | location=P0149 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+2026-10-09 22:00:19+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 22:00:21+0800 | world | block_interact (action=2) | location=P0304 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 22:00:22+0800 | world | block_interact (action=2) | location=P0273 | minecraft:chest | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=7
+2026-10-09 22:00:28+0800 | world | block_interact (action=2) | location=P0242 | minecraft:shulker_box | data=0 | rolled_back=0 | meta_bytes=0 | blockdata_bytes=0
+
+=== co_container ===
+2026-10-09 20:11:10+0800 | world | container_remove (action=0) | location=P0007 | minecraft:feather | amount=64 | rolled_back=0 | metadata_bytes=2571
+2026-10-09 20:11:10+0800 | world | container_remove (action=0) | location=P0007 | minecraft:feather | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:22:24+0800 | world | container_remove (action=0) | location=P0053 | minecraft:chicken | amount=3 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:35:24+0800 | world | container_remove (action=0) | location=P0673 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:35:28+0800 | world | container_remove (action=0) | location=P0673 | minecraft:iron_block | amount=587 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:19+0800 | world | container_remove (action=0) | location=P0129 | minecraft:diamond | amount=54 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:24+0800 | world | container_add (action=1) | location=P0129 | minecraft:iron_block | amount=132 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:26+0800 | world | container_add (action=1) | location=P0129 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:35+0800 | world | container_remove (action=0) | location=P0129 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:37+0800 | world | container_add (action=1) | location=P0129 | minecraft:wheat_seeds | amount=3 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:37+0800 | world | container_remove (action=0) | location=P0129 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:37+0800 | world | container_add (action=1) | location=P0129 | minecraft:wildflowers | amount=8 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:38+0800 | world | container_remove (action=0) | location=P0129 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:43+0800 | world | container_remove (action=0) | location=P0129 | minecraft:iron_block | amount=74 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:43+0800 | world | container_add (action=1) | location=P0129 | minecraft:feather | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:40:44+0800 | world | container_remove (action=0) | location=P0129 | minecraft:iron_block | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:41:45+0800 | world | container_remove (action=0) | location=P0140 | minecraft:iron_leggings | amount=1 | rolled_back=0 | metadata_bytes=427
+2026-10-09 20:41:50+0800 | world | container_remove (action=0) | location=P0130 | minecraft:diamond_leggings | amount=1 | rolled_back=0 | metadata_bytes=464
+2026-10-09 20:41:53+0800 | world | container_add (action=1) | location=P0130 | minecraft:diamond_leggings | amount=1 | rolled_back=0 | metadata_bytes=464
+2026-10-09 20:42:19+0800 | world | container_remove (action=0) | location=P0123 | minecraft:enchanted_book | amount=1 | rolled_back=0 | metadata_bytes=474
+2026-10-09 20:42:23+0800 | world | container_remove (action=0) | location=P0123 | minecraft:paper | amount=4 | rolled_back=0 | metadata_bytes=851
+2026-10-09 20:43:35+0800 | world | container_add (action=1) | location=P0674 | minecraft:stone_shovel | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:35+0800 | world | container_add (action=1) | location=P0674 | minecraft:stone_axe | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:39+0800 | world | container_add (action=1) | location=P0674 | minecraft:polished_deepslate | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:42+0800 | world | container_add (action=1) | location=P0674 | minecraft:pale_oak_sign | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:44+0800 | world | container_add (action=1) | location=P0674 | minecraft:dirt | amount=4 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:51+0800 | world | container_add (action=1) | location=P0674 | minecraft:cherry_sign | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:52+0800 | world | container_add (action=1) | location=P0674 | minecraft:dandelion | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:43:57+0800 | world | container_remove (action=0) | location=P0674 | minecraft:yellow_bundle | amount=1 | rolled_back=0 | metadata_bytes=4203
+2026-10-09 20:44:13+0800 | world | container_add (action=1) | location=P0674 | minecraft:stone_pickaxe | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 20:44:15+0800 | world | container_add (action=1) | location=P0674 | minecraft:cobblestone | amount=24 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:44:15+0800 | world | container_add (action=1) | location=P0674 | minecraft:polished_diorite_slab | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 20:58:13+0800 | world | container_remove (action=0) | location=P0675 | minecraft:cooked_porkchop | amount=28 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:01:37+0800 | world | container_remove (action=0) | location=P0183 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:01:37+0800 | world | container_remove (action=0) | location=P0183 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:01:37+0800 | world | container_add (action=1) | location=P0183 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:01:41+0800 | world | container_remove (action=0) | location=P0183 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:01:41+0800 | world | container_add (action=1) | location=P0183 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:01:54+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=32 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:01:55+0800 | world | container_add (action=1) | location=P0184 | minecraft:tnt | amount=32 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:02:00+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=63 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:02:02+0800 | world | container_add (action=1) | location=P0184 | minecraft:tnt | amount=63 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:02:05+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:02:34+0800 | world | container_remove (action=0) | location=P0184 | minecraft:shulker_box | amount=1 | rolled_back=0 | metadata_bytes=539
+2026-10-09 21:02:38+0800 | world | container_add (action=1) | location=P0184 | minecraft:shulker_box | amount=1 | rolled_back=0 | metadata_bytes=979
+2026-10-09 21:09:37+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=236 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:09:39+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=192 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:09:40+0800 | world | container_add (action=1) | location=P0242 | minecraft:tnt | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:09:41+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:rotten_flesh | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:leather | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:oak_sapling | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:sand | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:26+0800 | world | container_add (action=1) | location=P0273 | minecraft:oak_log | amount=8 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:28+0800 | world | container_add (action=1) | location=P0273 | minecraft:iron_ingot | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:28+0800 | world | container_add (action=1) | location=P0273 | minecraft:red_bundle | amount=1 | rolled_back=0 | metadata_bytes=1164
+2026-10-09 21:14:28+0800 | world | container_add (action=1) | location=P0273 | minecraft:yellow_bundle | amount=1 | rolled_back=0 | metadata_bytes=951
+2026-10-09 21:14:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:written_book | amount=1 | rolled_back=0 | metadata_bytes=725
+2026-10-09 21:14:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:enchanted_book | amount=1 | rolled_back=0 | metadata_bytes=474
+2026-10-09 21:14:31+0800 | world | container_add (action=1) | location=P0273 | minecraft:stick | amount=3 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:32+0800 | world | container_add (action=1) | location=P0273 | minecraft:stone_sword | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:14:36+0800 | world | container_add (action=1) | location=P0273 | minecraft:paper | amount=3 | rolled_back=0 | metadata_bytes=851
+2026-10-09 21:14:39+0800 | world | container_add (action=1) | location=P0273 | minecraft:cobblestone | amount=16 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:39+0800 | world | container_add (action=1) | location=P0273 | minecraft:heavy_weighted_pressure_plate | amount=22 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:14:40+0800 | world | container_remove (action=0) | location=P0273 | minecraft:paper | amount=3 | rolled_back=0 | metadata_bytes=851
+2026-10-09 21:14:42+0800 | world | container_add (action=1) | location=P0273 | minecraft:paper | amount=3 | rolled_back=0 | metadata_bytes=851
+2026-10-09 21:14:42+0800 | world | container_remove (action=0) | location=P0273 | minecraft:heavy_weighted_pressure_plate | amount=22 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:17:50+0800 | world | container_remove (action=0) | location=P0273 | minecraft:oak_log | amount=8 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:smooth_quartz | amount=5 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:chicken | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:24+0800 | world | container_add (action=1) | location=P0273 | minecraft:rabbit | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:25+0800 | world | container_add (action=1) | location=P0273 | minecraft:birch_sapling | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:25+0800 | world | container_add (action=1) | location=P0273 | minecraft:yellow_bundle | amount=1 | rolled_back=0 | metadata_bytes=2933
+2026-10-09 21:21:27+0800 | world | container_add (action=1) | location=P0273 | minecraft:feather | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:27+0800 | world | container_add (action=1) | location=P0273 | minecraft:cobblestone_slab | amount=62 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:28+0800 | world | container_add (action=1) | location=P0273 | minecraft:cobblestone_slab | amount=62 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:cobblestone | amount=10 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:oak_planks | amount=6 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:raw_iron | amount=2 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:21:30+0800 | world | container_add (action=1) | location=P0273 | minecraft:cobblestone_slab | amount=37 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:34:11+0800 | world_nether | container_remove (action=0) | location=P0366 | minecraft:cherry_boat | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:37:32+0800 | world | container_remove (action=0) | location=P0465 | minecraft:diamond_spear | amount=1 | rolled_back=0 | metadata_bytes=478
+2026-10-09 21:37:41+0800 | world | container_remove (action=0) | location=P0676 | minecraft:diamond_hoe | amount=1 | rolled_back=0 | metadata_bytes=448
+2026-10-09 21:40:21+0800 | world | container_remove (action=0) | location=P0677 | minecraft:tnt | amount=10 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:40:58+0800 | world | container_remove (action=0) | location=P0495 | minecraft:cooked_porkchop | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:41:34+0800 | world | container_add (action=1) | location=P0500 | minecraft:cooked_porkchop | amount=1 | rolled_back=0 | metadata_bytes=169
+2026-10-09 21:41:37+0800 | world | container_remove (action=0) | location=P0500 | minecraft:cooked_porkchop | amount=1 | rolled_back=0 | metadata_bytes=169
+2026-10-09 21:43:00+0800 | world | container_remove (action=0) | location=P0515 | minecraft:flint_and_steel | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:49:57+0800 | world | container_remove (action=0) | location=P0678 | minecraft:netherite_boots | amount=1 | rolled_back=0 | metadata_bytes=573
+2026-10-09 21:49:59+0800 | world | container_add (action=1) | location=P0678 | minecraft:netherite_boots | amount=1 | rolled_back=0 | metadata_bytes=573
+2026-10-09 21:50:00+0800 | world | container_remove (action=0) | location=P0678 | minecraft:netherite_boots | amount=1 | rolled_back=0 | metadata_bytes=573
+2026-10-09 21:50:34+0800 | world | container_remove (action=0) | location=P0679 | minecraft:diamond_pickaxe | amount=1 | rolled_back=0 | metadata_bytes=543
+2026-10-09 21:50:48+0800 | world | container_remove (action=0) | location=P0571 | minecraft:firework_rocket | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:52:49+0800 | world_nether | container_remove (action=0) | location=P0550 | minecraft:dark_oak_boat | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:29+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=320 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:31+0800 | world | container_add (action=1) | location=P0242 | minecraft:chest | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:31+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=69 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:33+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:33+0800 | world | container_add (action=1) | location=P0242 | minecraft:dirt | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:36+0800 | world | container_add (action=1) | location=P0242 | minecraft:iron_block | amount=47 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:36+0800 | world | container_add (action=1) | location=P0242 | minecraft:cooked_porkchop | amount=19 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:36+0800 | world | container_add (action=1) | location=P0242 | minecraft:iron_boots | amount=1 | rolled_back=0 | metadata_bytes=464
+2026-10-09 21:58:36+0800 | world | container_add (action=1) | location=P0242 | minecraft:iron_boots | amount=1 | rolled_back=0 | metadata_bytes=464
+2026-10-09 21:58:37+0800 | world | container_remove (action=0) | location=P0242 | minecraft:cooked_porkchop | amount=19 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:38+0800 | world | container_add (action=1) | location=P0242 | minecraft:pumpkin_pie | amount=16 | rolled_back=0 | metadata_bytes=1553
+2026-10-09 21:58:38+0800 | world | container_add (action=1) | location=P0242 | minecraft:firework_rocket | amount=64 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:41+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=251 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:41+0800 | world | container_add (action=1) | location=P0242 | minecraft:totem_of_undying | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:41+0800 | world | container_add (action=1) | location=P0242 | minecraft:apple | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:41+0800 | world | container_add (action=1) | location=P0242 | minecraft:oak_sign | amount=3 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:41+0800 | world | container_add (action=1) | location=P0242 | minecraft:heavy_weighted_pressure_plate | amount=21 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:42+0800 | world | container_add (action=1) | location=P0242 | minecraft:stick | amount=7 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:42+0800 | world | container_add (action=1) | location=P0242 | minecraft:apple | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:45+0800 | world | container_remove (action=0) | location=P0242 | minecraft:tnt | amount=320 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:58:45+0800 | world | container_add (action=1) | location=P0242 | minecraft:iron_pickaxe | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:58:45+0800 | world | container_add (action=1) | location=P0242 | minecraft:iron_sword | amount=1 | rolled_back=0 | metadata_bytes=348
+2026-10-09 21:59:01+0800 | world | container_remove (action=0) | location=P0184 | minecraft:shulker_box | amount=1 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:59:01+0800 | world | container_remove (action=0) | location=P0184 | minecraft:shulker_box | amount=1 | rolled_back=0 | metadata_bytes=539
+2026-10-09 21:59:02+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=69 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:59:03+0800 | world | container_remove (action=0) | location=P0184 | minecraft:shulker_box | amount=1 | rolled_back=0 | metadata_bytes=979
+2026-10-09 21:59:06+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=59 | rolled_back=0 | metadata_bytes=0
+2026-10-09 21:59:06+0800 | world | container_add (action=1) | location=P0184 | minecraft:feather | amount=123 | rolled_back=0 | metadata_bytes=2571
+2026-10-09 21:59:09+0800 | world | container_add (action=1) | location=P0184 | minecraft:diamond_hoe | amount=1 | rolled_back=0 | metadata_bytes=448
+2026-10-09 21:59:10+0800 | world | container_remove (action=0) | location=P0184 | minecraft:tnt | amount=19 | rolled_back=0 | metadata_bytes=0
+
+=== co_item ===
+2026-10-09 21:00:26+0800 | world | item_action=5 | location=P0171 | minecraft:iron_block | amount=757 | rolled_back=0 | data_bytes=0
+2026-10-09 21:00:26+0800 | world | item_action=5 | location=P0171 | minecraft:diamond | amount=54 | rolled_back=0 | data_bytes=0
+2026-10-09 21:06:37+0800 | world | item_action=10 | location=P0240 | minecraft:oak_planks | amount=16 | rolled_back=0 | data_bytes=0
+2026-10-09 21:06:37+0800 | world | item_action=9 | location=P0240 | minecraft:oak_log | amount=4 | rolled_back=0 | data_bytes=348
+2026-10-09 21:07:58+0800 | world | item_action=4 | location=P0171 | minecraft:iron_block | amount=53 | rolled_back=0 | data_bytes=0
+2026-10-09 21:08:47+0800 | world | item_action=10 | location=P0216 | minecraft:birch_planks | amount=24 | rolled_back=0 | data_bytes=0
+2026-10-09 21:08:47+0800 | world | item_action=9 | location=P0216 | minecraft:birch_log | amount=6 | rolled_back=0 | data_bytes=348
+2026-10-09 21:09:50+0800 | world | item_action=10 | location=P0680 | minecraft:crafting_table | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:09:50+0800 | world | item_action=9 | location=P0680 | minecraft:oak_planks | amount=4 | rolled_back=0 | data_bytes=348
+2026-10-09 21:09:56+0800 | world | item_action=9 | location=P0243 | minecraft:iron_block | amount=5 | rolled_back=0 | data_bytes=0
+2026-10-09 21:09:56+0800 | world | item_action=10 | location=P0243 | minecraft:iron_ingot | amount=45 | rolled_back=0 | data_bytes=0
+2026-10-09 21:09:58+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=2 | rolled_back=0 | data_bytes=0
+2026-10-09 21:09:58+0800 | world | item_action=10 | location=P0243 | minecraft:heavy_weighted_pressure_plate | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:01+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=42 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:01+0800 | world | item_action=10 | location=P0243 | minecraft:heavy_weighted_pressure_plate | amount=21 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:09+0800 | world | item_action=10 | location=P0243 | minecraft:birch_planks | amount=4 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:09+0800 | world | item_action=9 | location=P0243 | minecraft:birch_log | amount=1 | rolled_back=0 | data_bytes=348
+2026-10-09 21:10:11+0800 | world | item_action=10 | location=P0243 | minecraft:stick | amount=8 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:11+0800 | world | item_action=9 | location=P0243 | minecraft:oak_planks | amount=4 | rolled_back=0 | data_bytes=348
+2026-10-09 21:10:19+0800 | world | item_action=9 | location=P0243 | minecraft:iron_block | amount=48 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:19+0800 | world | item_action=10 | location=P0243 | minecraft:iron_ingot | amount=432 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:22+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=3 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:22+0800 | world | item_action=9 | location=P0243 | minecraft:stick | amount=2 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:22+0800 | world | item_action=10 | location=P0243 | minecraft:iron_pickaxe | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:35+0800 | world | item_action=10 | location=P0243 | minecraft:iron_block | amount=47 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:35+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=423 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:39+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=2 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:39+0800 | world | item_action=9 | location=P0243 | minecraft:stick | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:39+0800 | world | item_action=10 | location=P0243 | minecraft:iron_sword | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:54+0800 | world | item_action=9 | location=P0243 | minecraft:iron_ingot | amount=3 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:54+0800 | world | item_action=9 | location=P0243 | minecraft:stick | amount=2 | rolled_back=0 | data_bytes=0
+2026-10-09 21:10:54+0800 | world | item_action=10 | location=P0243 | minecraft:iron_axe | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:14:06+0800 | world | item_action=10 | location=P0254 | minecraft:oak_planks | amount=28 | rolled_back=0 | data_bytes=0
+2026-10-09 21:14:06+0800 | world | item_action=9 | location=P0254 | minecraft:oak_log | amount=7 | rolled_back=0 | data_bytes=348
+2026-10-09 21:14:13+0800 | world | item_action=10 | location=P0254 | minecraft:crafting_table | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:14:13+0800 | world | item_action=9 | location=P0254 | minecraft:oak_planks | amount=4 | rolled_back=0 | data_bytes=348
+2026-10-09 21:14:21+0800 | world | item_action=10 | location=P0272 | minecraft:chest | amount=3 | rolled_back=0 | data_bytes=0
+2026-10-09 21:14:21+0800 | world | item_action=9 | location=P0272 | minecraft:oak_planks | amount=24 | rolled_back=0 | data_bytes=348
+2026-10-09 21:17:54+0800 | world | item_action=10 | location=P0254 | minecraft:oak_planks | amount=32 | rolled_back=0 | data_bytes=0
+2026-10-09 21:17:54+0800 | world | item_action=9 | location=P0254 | minecraft:oak_log | amount=8 | rolled_back=0 | data_bytes=348
+2026-10-09 21:17:57+0800 | world | item_action=10 | location=P0272 | minecraft:stick | amount=8 | rolled_back=0 | data_bytes=0
+2026-10-09 21:17:57+0800 | world | item_action=9 | location=P0272 | minecraft:oak_planks | amount=4 | rolled_back=0 | data_bytes=348
+2026-10-09 21:18:01+0800 | world | item_action=9 | location=P0272 | minecraft:stick | amount=1 | rolled_back=0 | data_bytes=0
+2026-10-09 21:18:01+0800 | world | item_action=9 | location=P0272 | minecraft:oak_planks | amount=6 | rolled_back=0 | data_bytes=0
+2026-10-09 21:18:01+0800 | world | item_action=10 | location=P0272 | minecraft:oak_sign | amount=3 | rolled_back=0 | data_bytes=0
+2026-10-09 21:19:37+0800 | world | item_action=9 | location=P0272 | minecraft:cobblestone | amount=63 | rolled_back=0 | data_bytes=0
+2026-10-09 21:19:37+0800 | world | item_action=10 | location=P0272 | minecraft:cobblestone_slab | amount=126 | rolled_back=0 | data_bytes=0
+2026-10-09 21:21:01+0800 | world | item_action=10 | location=P0272 | minecraft:chest | amount=2 | rolled_back=0 | data_bytes=0
+2026-10-09 21:21:01+0800 | world | item_action=9 | location=P0272 | minecraft:oak_planks | amount=16 | rolled_back=0 | data_bytes=348
+
+=== co_sign ===
+2026-10-09 20:16:38+0800 | world | sign_action=0 | location=P0011 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 20:17:04+0800 | world | sign_action=0 | location=P0018 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:20+0800 | world | sign_action=0 | location=P0269 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:21+0800 | world | sign_action=1 | location=P0269 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:35+0800 | world | sign_action=1 | location=P0279 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:51+0800 | world | sign_action=0 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:52+0800 | world | sign_action=0 | location=P0279 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:18:53+0800 | world | sign_action=1 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:19:56+0800 | world | sign_action=1 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:19:57+0800 | world | sign_action=0 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:20:04+0800 | world | sign_action=0 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+2026-10-09 21:20:07+0800 | world | sign_action=1 | location=P0301 | text_present=True | color=1908001 | waxed=0 | face=0
+
+=== co_command ===
+2026-10-09 20:18:54+0800 | world | command | location=P0681 | /tradepost
+2026-10-09 20:19:00+0800 | world | command | location=P0681 | /tradepost order
+2026-10-09 20:19:06+0800 | world | command | location=P0682 | /tradepost claim
+2026-10-09 20:20:15+0800 | world | command | location=P0683 | /pheads
+2026-10-09 20:25:14+0800 | world | command | location=P0684 | /back
+2026-10-09 20:27:18+0800 | resworld | command | location=P0685 | /seed
+2026-10-09 20:27:43+0800 | resworld | command | location=P0686 | /spawn
+2026-10-09 20:31:03+0800 | world | command | location=P0684 | /back
+2026-10-09 20:48:01+0800 | world | command | location=P0687 | /psign online
+2026-10-09 21:31:50+0800 | world | command | location=P0688 | /home
+2026-10-09 21:32:56+0800 | world | command | location=P0689 | /spawn
+2026-10-09 21:55:16+0800 | world_nether | command | location=P0690 | /spawn
+2026-10-09 21:59:33+0800 | world | command | location=P0684 | /back
+
+=== co_chat ===
+2026-10-09 21:28:08+0800 | world | chat | location=P0691 | message_omitted_from_public_text
+2026-10-09 21:28:19+0800 | world | chat | location=P0692 | message_omitted_from_public_text
+
+=== co_session ===
+2026-10-09 20:08:26+0800 | world | session_action=1 | location=P0693
+2026-10-09 20:14:50+0800 | world | session_action=0 | location=P0694
+2026-10-09 20:15:03+0800 | world | session_action=1 | location=P0694
+2026-10-09 21:27:48+0800 | world | session_action=0 | location=P0691
+2026-10-09 21:28:02+0800 | world | session_action=1 | location=P0691
+2026-10-09 22:00:34+0800 | world | session_action=0 | location=P0246
