@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/PhCraft-Team/PhCraft-BanArchive/blob/main/schemas/case.schema.json",
+  "title": "PhCraft Ban Archive Case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "status",
+    "server",
+    "player",
+    "incident",
+    "violations",
+    "punishment",
+    "evidence",
+    "assessment"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^PCB-[0-9]{4}-[0-9]{3}$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["confirmed", "overturned"]
+    },
+    "server": {
+      "type": "string",
+      "const": "PhCraft"
+    },
+    "player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "uuid"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "uuid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$"
+        }
+      }
+    },
+    "incident": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "timezone"],
+      "properties": {
+        "start": { "type": "string", "format": "date-time" },
+        "end": { "type": "string", "format": "date-time" },
+        "timezone": { "type": "string", "minLength": 1 },
+        "world": { "type": ["string", "null"] },
+        "location_public": { "type": ["string", "null"] }
+      }
+    },
+    "violations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "griefing",
+          "theft",
+          "cheating",
+          "xray",
+          "combat_cheat",
+          "exploit_abuse",
+          "harassment",
+          "ban_evasion",
+          "server_attack",
+          "real_money_trade"
+        ]
+      }
+    },
+    "punishment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "issued_at"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["warning", "temporary_ban", "permanent_ban", "other"]
+        },
+        "issued_at": { "type": "string", "format": "date-time" },
+        "expires_at": { "type": ["string", "null"], "format": "date-time" },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "blocks_broken": { "type": ["integer", "null"], "minimum": 0 },
+        "blocks_placed": { "type": ["integer", "null"], "minimum": 0 },
+        "container_actions": { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "type"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "type": {
+            "type": "string",
+            "enum": ["coreprotect", "server_log", "screenshot", "video", "other"]
+          },
+          "description": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "assessment": {
+      "type": "string",
+      "enum": ["confirmed", "overturned"]
+    },
+    "appeal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["none", "pending", "rejected", "accepted"]
+        },
+        "issue_url": { "type": ["string", "null"], "format": "uri" },
+        "resolved_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}
