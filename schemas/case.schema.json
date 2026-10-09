@@ -15,6 +15,10 @@
     "evidence",
     "assessment"
   ],
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "confirmed"}}}, "then": {"properties": {"assessment": {"const": "confirmed"}}}},
+    {"if": {"properties": {"status": {"const": "overturned"}}}, "then": {"properties": {"assessment": {"const": "overturned"}}}}
+  ],
   "properties": {
     "case_id": {
       "type": "string",
@@ -73,7 +77,8 @@
       }
     },
     "punishment": {
-      "type": "object",
+      "description": "null 表示未获得可核验的处罚记录，不表示未处罚或已封禁。",
+      "type": ["object", "null"],
       "additionalProperties": false,
       "required": ["type", "issued_at"],
       "properties": {

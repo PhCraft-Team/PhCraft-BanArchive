@@ -16,12 +16,7 @@
   "violations": [
     "griefing"
   ],
-  "punishment": {
-    "type": "permanent_ban",
-    "issued_at": "2026-01-01T00:00:00+08:00",
-    "expires_at": null,
-    "note": null
-  },
+  "punishment": null,
   "statistics": {
     "blocks_broken": null,
     "blocks_placed": null,
